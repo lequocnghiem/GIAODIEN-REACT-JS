@@ -1,0 +1,31 @@
+.summary-shipping-row {
+    display: flex;
+    align-items: flex-start; /* Căn theo chiều dọc */
+  }
+  
+  .summary-shipping-row .custom-control {
+    margin-right: 20px; /* Khoảng cách giữa ô chọn và danh sách */
+  }
+  
+  .shipping-services {
+    width: 200px; /* Độ rộng của danh sách dịch vụ */
+  }
+  
+  .shipping-services label {
+    font-weight: bold;
+  }
+  
+  .shipping-services ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .shipping-services li {
+    margin-bottom: 5px;
+  }
+  
+  .custom-radio-label {
+    display: flex;
+    align-items: center;
+  }
+  
